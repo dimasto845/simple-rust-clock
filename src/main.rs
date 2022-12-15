@@ -1,6 +1,7 @@
 use chrono::{Local};
 
-// https://www.w3.org/TR/xml-entity-names/025.html
+
+///This project will show the current time in h:ms format
 const DIGITS : [[&str; 11]; 7] = [
     ["┏━┓ ","  ╻  "," ┏━┓ ", " ┏━┓ "," ╻ ╻ "," ┏━┓ "," ┏   "," ┏━┓ "," ┏━┓ "," ┏━┓ ","   "],
     ["┃ ┃ ","  ┃  ","   ┃ ", "   ┃ "," ┃ ┃ "," ┃   "," ┃   ","   ┃ "," ┃ ┃ "," ┃ ┃ "," ╻ "],
