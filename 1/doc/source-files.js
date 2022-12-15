@@ -1,0 +1,10 @@
+var sourcesIndex = {};
+sourcesIndex["chrono"] = {"name":"","dirs":[{"name":"datetime","files":["mod.rs"]},{"name":"format","files":["mod.rs","parse.rs","parsed.rs","scan.rs","strftime.rs"]},{"name":"naive","dirs":[{"name":"datetime","files":["mod.rs"]},{"name":"time","files":["mod.rs"]}],"files":["date.rs","internals.rs","isoweek.rs","mod.rs"]},{"name":"offset","dirs":[{"name":"local","files":["mod.rs","windows.rs"]}],"files":["fixed.rs","mod.rs","utc.rs"]}],"files":["date.rs","lib.rs","month.rs","round.rs","traits.rs","weekday.rs"]};
+sourcesIndex["iana_time_zone"] = {"name":"","files":["ffi_utils.rs","lib.rs","tz_windows.rs"]};
+sourcesIndex["libc"] = {"name":"","dirs":[{"name":"windows","dirs":[{"name":"msvc","files":["mod.rs"]}],"files":["mod.rs"]}],"files":["fixed_width_ints.rs","lib.rs","macros.rs"]};
+sourcesIndex["num_integer"] = {"name":"","files":["average.rs","lib.rs","roots.rs"]};
+sourcesIndex["num_traits"] = {"name":"","dirs":[{"name":"ops","files":["checked.rs","euclid.rs","inv.rs","mod.rs","mul_add.rs","overflowing.rs","saturating.rs","wrapping.rs"]}],"files":["bounds.rs","cast.rs","float.rs","identities.rs","int.rs","lib.rs","macros.rs","pow.rs","sign.rs"]};
+sourcesIndex["simple_rust_clock"] = {"name":"","files":["main.rs"]};
+sourcesIndex["time"] = {"name":"","files":["display.rs","duration.rs","lib.rs","parse.rs","sys.rs"]};
+sourcesIndex["winapi"] = {"name":"","dirs":[{"name":"km","files":["mod.rs"]},{"name":"shared","files":["basetsd.rs","guiddef.rs","ktmtypes.rs","minwindef.rs","mod.rs","ntdef.rs","ntstatus.rs","rpc.rs","rpcdce.rs","rpcndr.rs","windef.rs","winerror.rs","wtypes.rs","wtypesbase.rs"]},{"name":"ucrt","files":["mod.rs"]},{"name":"um","dirs":[{"name":"gl","files":["mod.rs"]}],"files":["combaseapi.rs","minwinbase.rs","mod.rs","oaidl.rs","objbase.rs","objidl.rs","objidlbase.rs","profileapi.rs","propidl.rs","sysinfoapi.rs","timezoneapi.rs","unknwnbase.rs","wingdi.rs","winnt.rs"]},{"name":"vc","files":["excpt.rs","mod.rs","vcruntime.rs"]},{"name":"winrt","files":["activation.rs","hstring.rs","inspectable.rs","mod.rs","roapi.rs","winstring.rs"]}],"files":["lib.rs","macros.rs"]};
+createSourceSidebar();
