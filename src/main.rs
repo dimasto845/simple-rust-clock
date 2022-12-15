@@ -1,7 +1,7 @@
 use chrono::{Local};
 
 
-///This project will show the current time in h:ms format
+///This project will show the current time in h:m:s format
 const DIGITS : [[&str; 11]; 7] = [
     ["┏━┓ ","  ╻  "," ┏━┓ ", " ┏━┓ "," ╻ ╻ "," ┏━┓ "," ┏   "," ┏━┓ "," ┏━┓ "," ┏━┓ ","   "],
     ["┃ ┃ ","  ┃  ","   ┃ ", "   ┃ "," ┃ ┃ "," ┃   "," ┃   ","   ┃ "," ┃ ┃ "," ┃ ┃ "," ╻ "],
